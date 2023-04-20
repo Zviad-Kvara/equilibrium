@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d192c;
+}
+
+.card {
+    background-color: #15263f;
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    padding: 24px;
+}
+
+.main-image {
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.title {
+    width: 302px;
+    height: 28px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600px;
+    font-size: 22px;
+    line-height: 28px;
+    color: white;
+    margin-top: 24px;
+}
+
+.paragraph {
+    color: #8bacd9;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.ethereum-icon {
+    width: 11px;
+    height: 18px;
+    margin-right: 6.48px;
+}
+
+.eth-text {
+    display: inline;
+    color: #00fff8;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.clock-text {
+    display: inline;
+    color: #8bacd9;
+    height: 20px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 9.03px;
+}
+
+.right {
+    margin-right: 26px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.line {
+    width: 302px;
+    height: 1px;
+    background-color: #2e405a;
+}
+
+.avatar {
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    width: 33px;
+    height: 33px;
+    margin-right: 16px;
+    margin-top: 16px;
+    border-radius: 50%;
+}
+
+.avatar-text1 {
+    display: inline;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8bacd9;
+    margin-right: 5px;
+    margin-top: 22px;
+}
+
+.avatar-text2 {
+    display: inline;
+    color: white;
+    font-size: 16px;
+    height: 20px;
+    font-family: "Outfit", sans-serif;
+    line-height: 20px;
+    margin-top: 22px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+span:hover {
+    color: #00fff8;
+}
+
+.overlay {
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    background: #00fff8;
+    position: relative;
+}
+
+.eye {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.overlay:hover .main-image {
+    opacity: 0.5;
+}
+
+.overlay:hover .eye {
+    display: block;
+}
+
+.title:hover {
+    color: #00fff8;
+}
