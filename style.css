@@ -11,6 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #0d192c;
+    min-height: 100vh;
 }
 
 .card {
